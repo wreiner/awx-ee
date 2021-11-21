@@ -17,6 +17,6 @@ This image adds Hashicorp Vault functionalities to awx-ee.
 To test the image use the provided play.yml:
 
 ```
-docker run -v $(pwd):/work -it --entrypoint /bin/bash awx-ee:0.5.0-extended
+docker run -v $(pwd):/work -it --entrypoint /bin/bash awx-ee:0.6.0-1
 ansible-playbook /work/play.yml
 ```
