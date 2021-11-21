@@ -4,7 +4,13 @@ Buildfiles for extended awx-ee image.
 
 ## Description
 
-This image adds Hashicorp Vault lookup (hashi_vault) to awx-ee.
+This image adds Hashicorp Vault functionalities to awx-ee.
+
+## Included
+
+* Ansible 2.11.6
+* Hashicorp Vault lookup (hashi_vault)
+* [TerryHowes ansible-modules-hashivault](https://github.com/TerryHowe/ansible-modules-hashivault)
 
 ## Test image
 
