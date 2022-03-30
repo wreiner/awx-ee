@@ -12,6 +12,12 @@ This image adds Hashicorp Vault functionalities to awx-ee.
 * Hashicorp Vault lookup (hashi_vault)
 * [TerryHowes ansible-modules-hashivault](https://github.com/TerryHowe/ansible-modules-hashivault)
 
+## Build the image
+
+```
+docker build -t wreiner/awx-ee:0.6.0-2 .
+```
+
 ## Test image
 
 To test the image use the provided play.yml:
